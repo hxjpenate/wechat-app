@@ -1,0 +1,15 @@
+<!--pages/login/login.wxml-->
+<image src='http://pic1.win4000.com/wallpaper/7/50c18e9db68ca.jpg' style='width:100%'></image>
+<view class='loginBox'>
+     
+   <i-panel title="基础用法">
+      <i-input  title="账号"  placeholder="123" bindinput='inputValue' />
+      <i-input  type="password" title="密码" placeholder="123456"  bindinput='passWordValue'/>
+      
+         
+     <i-button bind:click="handleClick" type="success" shape="circle"   size="small">登录</i-button>
+      <i-button bind:click="handleClickReg" type="success" shape="circle"   size="small">没有账号?点击注册</i-button>
+      
+  </i-panel>
+  
+</view>

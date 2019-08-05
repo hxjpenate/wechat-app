@@ -1,0 +1,50 @@
+<!--pages/search/search.wxml-->
+<view id='searchBox'>
+  <view class='page_row'>  
+  <view class="search">  
+    <view class="df search_arr">  
+      <icon class="searchcion" size='20' type='search'></icon>  
+      <input   placeholder="请输入小说名"  bindinput="keyWords" />
+    </view>  
+  </view>  
+  <view class='sousuo' bindtap="search">搜索</view>  
+</view>  
+   <!-- 搜素结果 -->
+   <block wx:if="{{keyWords}}">
+       <view class="container" wx:if="{{isLoading}}">
+    <i-spin fix>
+    </i-spin>
+    </view>
+
+   <view class='resBox' wx:else>
+    <view wx:for="{{searchResArr}}" class='listSingle' wx:for-item="resitem"
+     >
+      <view >{{resitem}}</view>
+      <view    bindtap="enterStoryDetails" data-id="{{resitem}}"> <i-icon type="enter" /></view>
+    </view>
+    </view>
+   </block>
+   <block wx:else>
+
+   <view class="container" wx:if="{{loading}}">
+    <i-spin fix>
+    </i-spin>
+    </view>
+
+    <view wx:else>
+       <view style='padding-left:10px;color:red'>热门小说推荐</view>
+      <view wx:for="{{hotArr}}" class='listSingleHot' wx:for-item="resitem">
+         <view class='title'>{{resitem.bookname}}--{{resitem.author_name}}</view>
+         <view class='cont'>
+           <view class='left'>
+           <image src='{{resitem.book_cover}}' class='img'></image>
+          </view>
+          <view class='right'>
+            {{resitem.book_info}}
+          </view>
+         </view>
+      </view>
+    </view>
+     
+   </block>
+</view>

@@ -1,0 +1,88 @@
+/* pages/search/search.wxss */
+ .search{  
+      width: 80%;  
+     
+    }  
+    .search_arr {  
+      border: 1px solid #d0d0d0;  
+      border-radius: 30rpx;  
+      margin-left: 20rpx;  
+    }  
+    .search_arr input{  
+      margin-left: 60rpx;  
+      height: 60rpx;  
+      border-radius: 5px;  
+    }  
+    .bc_text {  
+      line-height: 68rpx;  
+      height: 68rpx;  
+      margin-top: 34rpx;  
+    }  
+      
+    .sousuo {  
+      margin-left: 15rpx;  
+      width: 15%;  
+      line-height: 150%;  
+      text-align: center;  
+      border: 1px solid #d0d0d0;  
+      border-radius: 10rpx;  
+
+    }  
+    .page_row{  
+      display: flex;  
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 10rpx;
+      /* background: linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,1)); */
+      height:100rpx;
+      
+    }  
+    .searchcion {  
+      margin: 10rpx 10rpx 10rpx 10rpx;  
+      position: absolute;  
+      left:25rpx;  
+      z-index: 2;  
+      width: 20px;  
+      height: 20px;  
+      text-align: center; 
+    }  
+
+
+    .listSingle{
+      display: flex;
+      justify-content: space-between;
+      padding:20px;
+    }
+
+    .listSingleHot{
+      /* height: 80px; */
+      /* border: 1px solid red; */
+    }
+    .title{
+      height: 40px;
+      line-height: 40px;
+      padding-left: 10px;
+    }
+    .cont{
+      display: flex;
+      height: 100px;
+      overflow: hidden;
+      padding:0 10px 10px 10px;
+      
+    }
+    .left{
+      /* width: 40px;
+      height:40px; */
+      margin-right: 10px;
+    }
+    .img{
+        width: 80px;
+        height:80px;
+    }
+    .right{
+      display: -webkit-box;
+     -webkit-line-clamp: 4;
+     -webkit-box-orient: vertical;
+     overflow: hidden;
+
+    }

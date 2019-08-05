@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "i-button": "../../iview/button/index",
+    "i-input": "../../iview/input/index",
+    "i-icon": "../../iview/icon/index",
+    "i-count-down": "../../iview/count-down/index",
+    "i-load-more": "../../iview/load-more/index",
+    "i-toast": "../../iview/toast/index"
+  }
+}

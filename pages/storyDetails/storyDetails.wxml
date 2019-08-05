@@ -1,0 +1,11 @@
+<!--pages/storyDetails/storyDetails.wxml-->
+ <view class="container" wx:if="{{isLoading}}">
+    <i-spin fix>
+    </i-spin>
+</view>
+<view wx:else class='detailsBox'>
+    <image src='{{detailsObj.aladdin.cover}}' style='width:100%'></image>
+    <view class='detailsCont'>
+      {{detailsObj.aladdin.desc}}
+    </view>
+</view>

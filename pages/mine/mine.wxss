@@ -1,0 +1,21 @@
+/* pages/mine/mine.wxss */
+.box{
+  background: #ccc
+}
+.top{
+  display: flex;
+  padding: 20px;
+  background: #fff;
+  /* margin-bottom: 40px; */
+}
+.left{
+  margin-right: 20px;
+}
+
+.btmSingle{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #fff;
+  margin: 10px 0;
+}

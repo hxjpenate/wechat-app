@@ -1,0 +1,124 @@
+/**index.wxss**/
+/* .userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+} */
+
+#indexBox{
+
+}
+  .search{  
+      width: 80%;  
+     
+    }  
+    .search_arr {  
+      border: 1px solid #d0d0d0;  
+      border-radius: 30rpx;  
+      margin-left: 20rpx;  
+    }  
+    .search_arr input{  
+      margin-left: 60rpx;  
+      height: 60rpx;  
+      border-radius: 5px;  
+    }  
+    .bc_text {  
+      line-height: 68rpx;  
+      height: 68rpx;  
+      margin-top: 34rpx;  
+    }  
+      
+    .sousuo {  
+      margin-left: 15rpx;  
+      width: 15%;  
+      line-height: 150%;  
+      text-align: center;  
+      border: 1px solid #d0d0d0;  
+      border-radius: 10rpx;  
+
+    }  
+    .page_row{  
+      display: flex;  
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 10rpx;
+      /* background: linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,1)); */
+      height:100rpx;
+      
+    }  
+    .searchcion {  
+      margin: 10rpx 10rpx 10rpx 10rpx;  
+      position: absolute;  
+      left:25rpx;  
+      z-index: 2;  
+      width: 20px;  
+      height: 20px;  
+      text-align: center; 
+    }  
+.sliderBox .slide-image{
+  width: 100%;
+
+}
+
+.imgBox{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 600rpx;
+  margin: 0 auto;
+  margin-top:20rpx;
+}
+.singleImgBox{
+
+  width: 150rpx;
+  height: 160rpx;
+  text-align: center;
+  
+}
+.img{
+  width: 40rpx; 
+  height: 40rpx;
+}
+
+/* 每日资讯 */
+.ContcontainerBox{
+  background: #ccc;
+  padding-bottom: 20px;
+ 
+}
+.contT{
+  color: #19be6b;
+  height: 20px;
+  line-height: 30px;
+  padding-left: 10px;
+}
+.contBox{
+  display: flex;
+  height: 80px;
+  padding:10px;
+  background: #fff;
+  margin-top:10px;
+
+
+}
+.contImgStyle{
+  width: 100px;
+  margin-right: 10px;
+  height: 66px;
+  vertical-align: middle;
+}

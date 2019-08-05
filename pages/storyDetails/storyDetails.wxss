@@ -1,0 +1,12 @@
+/* pages/storyDetails/storyDetails.wxss */
+.detailsBox{
+  margin: 10px;
+}
+image{
+  width: 100%;
+}
+.detailsCont{
+  padding: 20px;
+  font-size: 14px;
+  color:#ccc
+}

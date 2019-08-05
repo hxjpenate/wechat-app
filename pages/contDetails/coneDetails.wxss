@@ -1,0 +1,9 @@
+/* pages/contDetails/coneDetails.wxss */
+.contImgStyle{
+  width: 100%
+}
+.cont{
+  padding: 20px;
+  color: #ccc;
+  font-size: 12px;
+}

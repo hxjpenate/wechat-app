@@ -1,0 +1,21 @@
+<view id='aroundBox'>
+     <view class='top'>
+     <audio controls src="http://www.170mv.com/kw/antiserver.kuwo.cn/anti.s?rid=MUSIC_20674340&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3"
+     
+     poster='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1564639102351&di=d66f270ff836772733813865ff97b48f&imgtype=0&src=http%3A%2F%2Fs6.sinaimg.cn%2Forignal%2F4bcf3049c8511d61f7a65'
+     id="Audio"
+     name='我想更懂你'
+     author='潘玮柏'
+     
+     ></audio>
+     </view>
+     <view class='cont' wx:for="{{musicData}}" wx:for-item="musicitem">
+          <view class='left'>   <image src="{{musicitem.album_500_500}}" ></image></view>
+          <view class='right'>
+                <view>{{musicitem.album_title}}</view>
+                <view>
+                {{musicitem.author}}
+                </view>
+          </view>
+     </view>
+</view>
